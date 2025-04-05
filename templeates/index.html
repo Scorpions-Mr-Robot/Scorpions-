@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorpions</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="/imagenes/scorpio_icon.png">
+  </head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="/imagenes/logo1.png" alt="Scorpions">
+                <h4>Scorpions</h4>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/html/servicios.html">Servicios</a></li>
+                    <li><a href="/html/contacto.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+            <a href="/html/registro.html" class="btn-registro">Regístrate</a>
+        </div>
+
+        
+
+    </header>
+
+    <section class="hero">
+        <h1>WEBS DE FÁCIL USO</h1>
+        <p>Soluciones digitales innovadoras para tu empresa.</p>
+        <a href="/html/proyectos.html" class="btn-inf">Visita nuestros proyectos</a>
+    </section>
+
+    <div class="title">Conócenos</div>
+
+    <div class="container-principal">
+        <section class="container-info">
+            <div class="info">
+                <img src="/imagenes/vision.png" alt="Visión">
+                <h2>Visión</h2>
+                <a href="#" class="btn-vision">Conócenos</a>
+            </div>
+
+            <div class="info">
+                <img src="/imagenes/mision.png" alt="Misión">
+                <h2>Misión</h2>
+                <a href="#" class="btn-mision">Conócenos</a>
+            </div>
+
+            <div class="info">
+                <img src="/imagenes/valores.png" alt="Valores">
+                <h2>Valores</h2>
+                <a href="#" class="btn-valores">Conócenos</a>
+            </div>
+        </section>
+    </div>
+
+    <script src="/js/script.js"></script>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos una empresa comprometida con la calidad y el servicio al cliente, ofreciendo soluciones innovadoras para el mundo digital.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Enlaces Rápidos</h2>
+                <ul>
+                    <li><a href="/templates/index.html">Inicio</a></li>
+                    <li><a href="/html/servicios.html">Servicios</a></li>
+                    <li><a href="/html/proyectos.html">Proyectos</a></li>
+                    <li><a href="/html/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contacto</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Ciudad, Perú</p>
+                <p><i class="fas fa-envelope"></i> scorpions@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +51 947 236 723</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Síguenos</h2>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Scorpions. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Inline JavaScript -->
+<script>
+    window.addEventListener('scroll', function() {
+        const nav = document.querySelector('.nav-container');
+        if (window.scrollY > 0) {
+            nav.style.boxShadow = '0 4px 10px rgba(0, 0, 0, 0.2)'; // Sombra más intensa al hacer scroll
+        } else {
+            nav.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.1)'; // Sombra original
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* From Uiverse.io by ahmed150up */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la pantalla */
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,60,56,0.8799894957983193) 51%, rgba(0,212,255,1) 100%);
+}
+
+.card {
+    width: 350px;
+    max-width: 90%; /* Evita que se desborde en pantallas pequeñas */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.card-header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,119,105,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 16px;
+    text-align: center;
+}
+
+.card-header .text-header {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,60,56,1) 15%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ccc;
+    color: #333;
+}
